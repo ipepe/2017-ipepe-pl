@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Patryk Ptasiński official website! You can check my experience brief history. My opinions and contact me.">
+    <link rel="shortcut icon" href="http://www.ipepe.pl/favicon.ico" />
+    <title>Patryk Ptasiński's Official Website</title>
+    <script type="text/javascript" src="dpd.js"></script>
+    <script type="text/javascript" src="js/sweet-alert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/sweet-alert.css">
+    <link rel="stylesheet" type="text/css" href="styles/pure-min.css">
+    <link rel="stylesheet" type="text/css" href="styles/font-awesome.min.css">
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="styles/grids-responsive-old-ie-min.css">
+    <link rel="stylesheet" href="styles/marketing-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="styles/grids-responsive-min.css">
+    <link rel="stylesheet" href="styles/marketing.css">
+    <!--<![endif]-->
+</head>
+<body>
+    <script type="text/javascript">
+    function postForm(){
+        var emailValue = document.getElementById('inputEmail').value;
+        var textValue = document.getElementById('inputText').value;
+        var nameValue = document.getElementById('inputName').value;
+
+        if(textValue.length !== 0 ){
+            document.getElementById('div-thanks').style.display='inherit';
+            document.getElementById('form-form').style.display='none';
+
+            dpd.questions.post( {
+                msgEmail:   emailValue,
+                msgText:    textValue,
+                msgName:    nameValue
+            } , console.log);
+
+            emailValue='';
+            nameValue='';
+            textValue='';
+        }else{
+            sweetAlert('Could not send form','Please put some content into Message text box.','error')
+        }
+        return false;
+    }
+    </script>
+    <div id="divTop" class="header">
+        <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+            <a class="pure-menu-heading" href="#divTop"> <i class="fa fa-code fa-spin"></i> iPePe.pl</a>
+
+            <ul>
+                <li class="pure-menu-selected"><a href="#divTop">Top</a></li>
+                <li><a href="#divAbout">About</a></li>
+                <li><a href="#divFindme">Find me</a></li>
+                <li><a href="#divContact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="splash-container">
+        <div class="splash">
+            <h1 class="splash-head">Patryk Ptasiński</h1>
+            <p class="splash-subhead">Information Technology Engineer.</p>
+            <p><a href="#divContact" class="pure-button pure-button-primary">Contact me</a></p>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div id="divAbout" class="content">
+            <h2 class="content-head is-center">A little about myself.</h2>
+
+            <div class="pure-g">
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead"><i class="fa fa-code"></i>Experience</h3>
+                    <p>My commercial IT experience started at highschool. I started as Junior Software Developer 5 years ago. Then I worked in Outsourcing company as Helpdesk/Software Developer. Until recently I worked as Helpdesk/Systems Administrator. Now I'm developing on my own and working part-time as Junior Ruby on Rails + Ember developer.</p>
+                </div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead"><i class="fa fa-cogs"></i>Technologies</h3>
+                    <p>Worked with many technologies including vmWare, Nagios, Spiceworks, SCCM+Active Directory, Sybase Afaria, Apache, Node.js, MySql and MongoDB. Programming languagues: C#, Java, Objective-C, JavaScript, PHP, PowerShell, Bash, Batch and VBS.</p>
+                </div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead"><i class="fa fa-th-large"></i>My insight</h3>
+                    <p>I value small and fast frameworks. I deny jQuery and use my own, fast pure Javascript code for webpages flexibility. You will never hear from me words like: "Nowadays, there is plenty of CPU power."</p>
+                </div>
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                    <h3 class="content-subhead"><i class="fa fa-mobile"></i>Current Projects</h3>
+                    <p>What currently keeps me busy? In short, I design and implement digital products and systems for mobile devices.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="divFindme" class="ribbon l-box-lrg pure-g">
+            <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+                <img class="pure-img-responsive" alt="File Icons" src="images/pic01.jpg" style="border-radius: 10px; width: 60%" alt="City at night">
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+                <h2 class="content-head content-head-ribbon">Find me at</h2>
+                <p>
+                    <i class="fa fa-github"></i> GitHub: <a href="https://github.com/ipepe"> github.com/ipepe</a>
+                    <br>
+                    <img src="https://www.npmjs.com/favicon.ico"> NPM: <a href="https://www.npmjs.com/~ipepe"> npmjs.com/~ipepe</a>
+                    <br>
+                    <br>SOON:<br>
+                    <i class="fa fa-twitter"></i> Twitter<br>
+                    <i class="fa fa-google"></i> Google (Android) Play Store<br>
+                    <i class="fa fa-apple"></i> Apple (iOS) App Store<br>
+                </p>
+            </div>
+        </div>
+
+        <div id="divContact" class="content">
+            <h2 class="content-head is-center">Contact me</h2>
+            <div class="pure-g">
+                <div class="l-box-lrg pure-u-1 pure-u-md-5-5 is-center">
+                    <form id="form-form" class="pure-form is-center" onsubmit="return postForm();return false;">
+                        <fieldset>
+                            <div class="pure-u-md-1-3">
+                                <label for="name" >Your Name</label>
+                                <input id="inputName" type="text" placeholder="(optional)" class="is-center">
+                            </div>
+                            <div class="pure-u-md-1-3">
+                                <label for="email">Your Email</label>
+                                <input id="inputEmail" type="email" placeholder="(optional)" class="is-center">
+                            </div>
+                            <div class="pure-u-md-2-3">
+                                <label for="inputText">Your Message</label>
+                                <textarea id="inputText" name="message" placeholder="(required)"></textarea>
+                            </div><br><br>
+                            <button type="submit" class="pure-button">Send Message</button>
+                        </fieldset>
+                    </form>
+                    <div id="div-thanks" class="is-center" style="display:none">
+                        <h2><i class="fa fa-check-square" style="color: #2ecc71;"></i> Thank you for sending me a message.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer l-box is-center">
+            &copy; 2015 Patryk "iPePe" Ptasiński. All Rights Reserved. <i class="fa fa-cog fa-spin"></i> Made with love by the YUI Team. Modified by Patryk Ptasiński.
+        </div>
+    </div>
+</body>
+</html>

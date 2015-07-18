@@ -1,0 +1,156 @@
+{
+  "basics": {
+    "name": "Patryk Ptasiński",
+    "label": "Information Technology Engineer",
+    "picture": "",
+    "email": "json.resume@ipepe.pl",
+    "phone": "+48-0-510-355-151",
+    "website": "http://ipepe.pl",
+    "summary": "My commercial IT experience started at highschool when I was 17 years old. I started as Junior Software Developer. Then I worked in Outsourcing company in Helpdesk/Software Developer. Until recently I worked as Helpdesk/Systems Administrator. Now I'm developing on my own: I design and implement digital products and systems for mobile devices. I value small and fast frameworks. You will never hear from me words like: \"Nowadays, there is plenty of CPU power.\"",
+    "location": {
+      "address": "Bielany",
+      "postalCode": "",
+      "city": "Warszawa",
+      "countryCode": "PL",
+      "region": "Mazowsze"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "ipepe",
+        "url": "https://github.com/ipepe"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Akademickie Inkubatory Przedsiębiorczości",
+      "position": "Startup owner",
+      "website": "www.aippw.pl",
+      "startDate": "2014-11-01",
+      "endDate": "now",
+      "summary": "",
+      "highlights": [
+        "Web Systems developer",
+        "Mobile apps developer",
+        "C# and Java developer"
+      ]
+    },
+    {
+      "company": "Gaz-System S.A.",
+      "position": "Helpdesk/Systems Administrator",
+      "website": "www.gaz-system.pl",
+      "startDate": "2012-08-01",
+      "endDate": "2014-11-01",
+      "summary": "",
+      "highlights": [
+        "Helpdesk on 2nd/3rd line of support",
+        "Microsoft System Center Configuration Manager 2012 SP1 - Administrator of packages, applications and compliance",
+        "Microsoft Active Directory Administrator",
+        "Sybase Afaria (MDM) Administrator"
+      ]
+    },
+    {
+      "company": "Synergia Polska, Piotr Perzyna",
+      "position": "Helpdesk/Software Developer",
+      "website": "http://www.instalacje-alarmowe.com/",
+      "startDate": "01-01-2011",
+      "endDate": "01-01-2012",
+      "summary": "Opensourcing company. I created few apps for projects. Took care of IT infrastructure in many companies.",
+      "highlights": []
+    },
+    {
+      "company": "LACAN Technologies Sp. z o.o.",
+      "position": "Junior Software Developer/Junior Helpdesk",
+      "website": "http://www.lacan.com.pl/",
+      "startDate": "01-05-2010",
+      "endDate": "01-10-2010",
+      "summary": "Junior Python/XML/SQL developer for Open ERP system. I developed modules for ERP/CRM projects.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "PJATK - www.pja.edu.pl",
+      "area": "Information Technology",
+      "studyType": "Polish-Japanese Institute of Information Technology",
+      "startDate": "2012-09-01",
+      "endDate": "2016",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Intermediate",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "NodeJS+Deployd"
+      ]
+    },
+    {
+      "name": "Systems Administraton",
+      "level": "Pre-Intermediate",
+      "keywords": [
+        "Microsoft (System Center family)",
+        "Linux (Debian family)",
+        "SQL (MySQL and MSSQL)"
+      ]
+    },
+    {
+      "name": "Mobile Development",
+      "level": "Pre-Intermediate",
+      "keywords": [
+        "Android",
+        "iOS"
+      ]
+    },
+    {
+      "name": "Virtualisation",
+      "level": "Pre-Intermediate",
+      "keywords": [
+        "vmWare",
+        "VirtualBox"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Polish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Upper intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Motorsport",
+      "keywords": []
+    },
+    {
+      "name": "Technologies in IT",
+      "keywords": []
+    },
+    {
+      "name": "Reverse Engineering",
+      "keywords": []
+    },
+    {
+      "name": "Opensource",
+      "keywords": []
+    },
+    {
+      "name": "Arduino Development",
+      "keywords": []
+    }
+  ],
+  "references": []
+}
