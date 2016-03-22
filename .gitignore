@@ -1,5 +1,3 @@
 .DS_Store
-/.idea
-/.idea/
-/.idea/*
-/.idea/**
+_site
+.idea
